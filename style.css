@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color: #111;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 50;
+    text-align: center;
+    margin: 1rem 0 3rem;
+    font-family: 'Courgette', cursive;
+}
+
+.title {
+    color: rgb(45, 230, 236);
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.inputDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+    font-style: italic;
+}
+
+.add {
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: rgb(146, 82, 4);
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+
+.add:hover {
+    opacity: 0.7;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.item {
+    padding: 0.5rem;
+    border-bottom: 3px solid rgb(206, 199, 199);
+    margin-bottom: 1.5rem;
+}
+
+.item_input {
+    background: none;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1.6rem;
+    width: 249px;
+}
+
+.edit {
+    background: none;
+    outline: none;
+    border: none;
+    color: rgb(218, 166, 213);
+    font-size: 1.4rem;
+    font-family: 'Alegreya', serif;
+    margin: 0 0.3rem;
+    cursor: pointer;
+}
+
+.save {
+    background: none;
+    outline: none;
+    border: none;
+    color: rgb(218, 166, 213);
+    font-size: 1.4rem;
+    font-family: 'Alegreya', serif;
+    margin: 0 0.8rem;
+    cursor: pointer;
+}
+
+.remove {
+    background: none;
+    outline: none;
+    border: none;
+    color: rgb(230, 49, 49);
+    font-size: 1.4rem;
+    font-family: 'Alegreya', serif;
+    cursor: pointer;
+}
